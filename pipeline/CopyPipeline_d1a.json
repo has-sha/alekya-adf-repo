@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy_d1a",
+				"description": "added comments",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
