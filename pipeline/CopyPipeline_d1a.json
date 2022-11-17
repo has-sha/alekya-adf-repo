@@ -4,7 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy_d1a",
-				"description": "added comments",
+				"description": "sftp copy activity",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
