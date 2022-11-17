@@ -1,0 +1,22 @@
+{
+	"name": "DestinationDataset_d1a",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "aimaster_sftp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"folderPath": "/home/dh_y2u944/aimaster.live/a/flsk"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

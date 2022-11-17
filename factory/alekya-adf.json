@@ -1,0 +1,9 @@
+{
+	"name": "alekya-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a1013701-06aa-437e-be89-d2e8ca18b4b8",
+		"tenantId": "fce15bcc-5958-407c-a319-6e49970aff91"
+	}
+}

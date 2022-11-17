@@ -1,0 +1,109 @@
+{
+	"name": "SourceDataset_d1a",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "aimaster_sftp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"fileName": "internList.csv",
+				"folderPath": "/home/dh_y2u944/aimaster.live/a/flsk"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Number",
+				"type": "String"
+			},
+			{
+				"name": "DOB",
+				"type": "String"
+			},
+			{
+				"name": "Gender",
+				"type": "String"
+			},
+			{
+				"name": "Email",
+				"type": "String"
+			},
+			{
+				"name": "Address",
+				"type": "String"
+			},
+			{
+				"name": "State",
+				"type": "String"
+			},
+			{
+				"name": "latitude",
+				"type": "String"
+			},
+			{
+				"name": "longitude",
+				"type": "String"
+			},
+			{
+				"name": "College",
+				"type": "String"
+			},
+			{
+				"name": "Qualification",
+				"type": "String"
+			},
+			{
+				"name": "Linkedin",
+				"type": "String"
+			},
+			{
+				"name": "Father Name",
+				"type": "String"
+			},
+			{
+				"name": "Comments",
+				"type": "String"
+			},
+			{
+				"name": "Profile",
+				"type": "String"
+			},
+			{
+				"name": "Purpose Of Join",
+				"type": "String"
+			},
+			{
+				"name": "Skills",
+				"type": "String"
+			},
+			{
+				"name": "What You Want To Learn",
+				"type": "String"
+			},
+			{
+				"name": "Availability",
+				"type": "String"
+			},
+			{
+				"name": "Accepted Term Conditions",
+				"type": "String"
+			},
+			{
+				"name": "uploaded_img_path",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
