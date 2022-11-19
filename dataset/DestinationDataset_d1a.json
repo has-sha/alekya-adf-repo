@@ -5,12 +5,20 @@
 			"referenceName": "aimaster_sftp",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"path": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "SftpLocation",
-				"folderPath": "/home/dh_y2u944/aimaster.live/a/flsk"
+				"folderPath": {
+					"value": "@dataset().path",
+					"type": "Expression"
+				}
 			},
 			"columnDelimiter": "|",
 			"escapeChar": "\\",

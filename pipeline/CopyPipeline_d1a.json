@@ -4,6 +4,7 @@
 		"activities": [
 			{
 				"name": "Copy_d1a",
+				"description": "sftp copy activity",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -55,13 +56,25 @@
 				"inputs": [
 					{
 						"referenceName": "SourceDataset_d1a",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"path": {
+								"value": "@pipeline().globalParameters.path",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "DestinationDataset_d1a",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"path": {
+								"value": "@pipeline().globalParameters.path",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}

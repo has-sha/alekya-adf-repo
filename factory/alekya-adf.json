@@ -1,5 +1,13 @@
 {
 	"name": "alekya-adf",
+	"properties": {
+		"globalParameters": {
+			"path": {
+				"type": "string",
+				"value": "/home/dh_y2u944/aimaster.live/a/flsk"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
